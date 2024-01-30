@@ -1,0 +1,75 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+:root {
+  --primary-color: #fff;
+}
+
+body {
+  background: #fff;
+}
+
+.__uppercase {
+  text-transform: uppercase;
+}
+
+.__container {
+  padding-left: 2.2857142857vw;
+  padding-right: 2.2857142857vw;
+  width: 100vw;
+}
+
+a {
+  cursor: pointer;
+}
+
+._container {
+  padding-left: 2.2857142857vw;
+  padding-right: 2.2857142857vw;
+  width: 100vw;
+}
+
+.wrapper {
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+
+.h3 {
+  font-family: 'Bodoni Moda', serif;
+  font-size: 6vw;
+  line-height: 86%;
+  text-transform: uppercase;
+}
+
+.h5 {
+  font-family: 'Bodoni Moda', serif;
+  font-size: 2.2857142857vw;
+  line-height: 86%;
+  text-transform: uppercase;
+}
+
+.vt {
+  transform: rotate(-180deg);
+  writing-mode: vertical-rl;
+}
+
+.tf1 {
+  font-family: 'Crimson Pro', serif;
+}
+
+.s32 {
+  font-size: 1.6vw;
+  line-height: 86%;
+  font-family: 'PT Serif', serif;
+}

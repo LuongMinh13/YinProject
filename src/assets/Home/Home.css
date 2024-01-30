@@ -1,0 +1,10 @@
+.Home{
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+
+.img, .svg {
+    max-width: 100%;
+    vertical-align: top;
+}

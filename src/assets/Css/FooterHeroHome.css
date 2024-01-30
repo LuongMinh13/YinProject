@@ -1,0 +1,39 @@
+.home-hero-footer {
+    translate: none;
+    rotate: none;
+    scale: none;
+    transform: translate(0px, 0px);
+    opacity: 1;
+    bottom: 1.1428571429vw;
+    left: 0;
+    position: absolute;
+    width: 100vw;
+    z-index: 1;
+}
+
+.home-hero-footer__wrap {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-soc {
+    opacity: 0;
+    animation: drop 0.4s linear forwards 0.8s;
+}
+
+
+.hero-soc__link {
+    color: var(--primary-color);
+    margin-right: 2.2857142857vw;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 13.5px;
+    text-transform: uppercase;
+    margin-left: 1.7vw;
+}
+
+.hero-soc__link:hover {
+    opacity: 0.5;
+    transition: 0.3s linear;
+}

@@ -1,0 +1,162 @@
+.mainbg {
+    translate: none;
+    rotate: none;
+    scale: none;
+    transform: translate(0px, 0px);
+    overflow: hidden;
+}
+
+.home-view {
+    position: relative;
+    background: #fff;
+}
+
+.mainphoto,
+.mainbg {
+    height: 100%;
+    left: 0;
+    /* position: absolute; */
+    top: 0;
+    width: 100%;
+}
+
+.mainphoto {
+    position: relative;
+}
+
+.main-img {
+    vertical-align: top;
+    width: 100%;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.layout-img {
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+.layout-img,
+.main-img {
+    height: 100%;
+    max-width: none;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center center;
+    object-position: center center;
+    width: 100vw;
+}
+
+.title_wrap {
+    translate: none;
+    rotate: none;
+    scale: none;
+    transform: translate(0px, 0px);
+    opacity: 1;
+    height: 100vh;
+    left: 0;
+    mix-blend-mode: overlay;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    z-index: 1;
+}
+
+.home-hero-title {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+}
+
+.home-hero-title__wrap {
+    translate: none;
+    rotate: none;
+    scale: none;
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+._active {
+    z-index: 1;
+    opacity: 1;
+}
+
+.home-hero {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    width: 100vw;
+}
+
+.home-hero-descr {
+    font-family: 'Playfair Display', serif;
+    font-size: 2vw;
+    left: 0;
+    line-height: 2vw;
+    /* opacity: 0; */
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: 1;
+    color: #fff;
+}
+
+.mask {
+    display: block;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.split-line {
+    display: block;
+    text-align: center;
+    position: relative;
+    translate: none;
+    rotate: none;
+    scale: none;
+    transform: translate(0px, 0px);
+}
+
+.firstDropDown {
+    opacity: 0;
+    animation: drop 0.4s linear forwards;
+}
+
+.secondDropDown {
+    opacity: 0;
+    animation: drop 0.4s linear forwards 0.2s;
+}
+
+.thirdDropDown {
+    opacity: 0;
+    animation: drop 0.4s linear forwards 0.4s;
+}
+
+.fourDropDown {
+    opacity: 0;
+    animation: drop 0.4s linear forwards 0.6s;
+}
+
+.active {
+    display: none;
+  }
+
+@keyframes drop {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}

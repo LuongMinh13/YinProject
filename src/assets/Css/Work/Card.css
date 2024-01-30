@@ -1,0 +1,83 @@
+.category-gallery__slider {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    scroll-behavior: smooth;
+}
+
+.category-gallery__wrap {
+    display: flex;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.category-gallery__item {
+    height: 85vh;
+    transform: translate(0%, 5%) translate(960px, 0px) rotate(-2.5deg);
+}
+
+.category-gallery__item1 {
+    height: 85vh;
+    transform: translate(0%, 5%) translate(960px, 0px) rotate(1.25deg);
+}
+
+.category-gallery__item2 {
+    height: 65vh;
+    transform: translate(-5%, 20%) translate(960px, 0px) rotate(-2.5deg);
+}
+
+.category-gallery__item3 {
+    height: 85vh;
+    transform: translate(-7%, 5%) translate(960px, 0px) rotate(1.05deg);
+}
+
+.category-gallery__item4 {
+    height: 80vh;
+    transform: translate(-10%, 10%) translate(960px, 0px) rotate(-0.45deg);
+}
+
+.category-gallery__item5 {
+    height: 65vh;
+    transform: translate(-16%, 20%) translate(960px, 0px) rotate(1.7deg);
+}
+
+.category-gallery__item6 {
+    height: 85vh;
+    transform: translate(-20%, 5%) translate(960px, 0px) rotate(1.8deg);
+}
+
+.category-gallery__img {
+    height: 100%;
+    position: relative;
+}
+
+.category-gallery__item-link {
+    inset: 0;
+    position: absolute;
+    z-index: 2;
+}
+
+.category-gallery__photo {
+    height: 100%;
+    max-width: none;
+    width: auto;
+}
+
+.category-gallery__name {
+    left: 0;
+    margin-top: 0.8571428571vw;
+    position: absolute;
+    top: 100%;
+}
+
+@media (width > 900px) {
+    .category-title-text {
+        mix-blend-mode: difference;
+    }
+}

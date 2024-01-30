@@ -1,0 +1,34 @@
+.dropdown_menu {
+  background: transparent;
+  position: absolute;
+  padding-top: 2.4vw;
+  -webkit-animation: showUpDropDown 0.25s ease;
+  animation: showUpDropDown 0.25s ease;
+  z-index: -1;
+}
+
+.dropdown_items {
+  padding: 0.3vw 0.3vw 0.3vw 0;
+}
+
+@keyframes showUpDropDown {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 0.25;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  75% {
+    opacity: 0.75;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

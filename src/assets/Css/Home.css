@@ -1,0 +1,33 @@
+.Home{
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+
+.loading-container{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.img, .svg {
+    max-width: 100%;
+    vertical-align: top;
+}
+
+.loading-style{
+    background-image: url("../Image//Mamasi.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center center;
+    object-position: center center;
+    justify-content: center;
+    align-items: center;
+}

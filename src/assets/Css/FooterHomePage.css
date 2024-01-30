@@ -1,0 +1,46 @@
+.footer {
+    padding-bottom: 2.2857142857vw;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+
+.footer-head {
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyrights-title {
+    margin-bottom: 0.2857142857vw;
+}
+
+.copyrights-title__first {
+    font-size: 1.5vw;
+    line-height: 100%;
+}
+
+.copyrights-title__second {
+    font-size: 1.7142857143vw;
+    line-height: 100%;
+    margin-left: 0.3571428571vw;
+    text-transform: uppercase;
+}
+
+.copyrights-descr {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    width: 37.1428571429vw;
+}
+
+.designed-text {
+    margin-right: 0.3571428571vw;
+    font-size: 1.042vw;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .footer {
+        display: none;
+    }
+}

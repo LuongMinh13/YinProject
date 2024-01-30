@@ -1,0 +1,57 @@
+.category-view {
+    background: rgb(255, 255, 255);
+    height: 100vh;
+    position: relative;
+}
+
+.hero-title {
+    bottom: 2vw;
+    left: 2vw;
+    position: fixed;
+    transform-origin: left bottom;
+    z-index: 2;
+}
+
+.category-title {
+    color: #000;
+}
+
+.smaller{
+    font-size: 3vw;
+    transition: font-size 0.2s linear;
+}
+
+.reverse-smaller{
+    font-size: 6vw;
+    transition: font-size 0.2s linear;
+}
+
+.hero-descr{
+    bottom: 2vw;
+    left: 27vw;
+    position: absolute;
+    z-index: 1;
+    color: #000;
+    mix-blend-mode: darken;
+}
+
+.category-descr{
+    height: 23vw;
+    letter-spacing: .02em;
+    line-height: 150%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.disappear{
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.hero-actions{
+    left: 27vw;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    z-index: 1;
+}

@@ -1,0 +1,81 @@
+.home-view {
+    position: relative;
+    background-color: black;
+    color: black;
+}
+
+.main-bg {
+    translate: none;
+    rotate: none;
+    scale: none;
+    transform: translate(0px, 0px);
+}
+
+.main-photo,
+.main-bg {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.main-photo {
+    opacity: 0;
+    overflow: hidden;
+}
+
+.layout-img,
+.main-img {
+    height: 100%;
+    max-width: none;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center center;
+    object-position: center center;
+    width: 100vw;
+}
+
+.layout-img {
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+.title_wrap {
+    translate: none;
+    rotate: none;
+    scale: none;
+    transform: translate(0px, 0px);
+    opacity: 1;
+    height: 100vh;
+    left: 0;
+    mix-blend-mode: overlay;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    z-index: 1;
+}
+
+.home-hero-title {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+}
+
+.home-hero-title__wrap {
+    translate: none;
+    rotate: none;
+    scale: none;
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+._active {
+    opacity: 1;
+    z-index: 1;
+}

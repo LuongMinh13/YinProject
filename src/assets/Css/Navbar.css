@@ -1,0 +1,109 @@
+.header {
+    background-color: transparent;
+    align-items: center;
+    z-index: 99;
+    top: 0;
+    position: fixed;
+    -webkit-animation: fadeInDownMenu 1s ease;
+    animation: fadeInDownMenu 1s ease;
+    padding-bottom: 2.2857142857vw;
+    padding-top: 2.2857142857vw;
+    
+}
+
+.isNotHomePage{
+    mix-blend-mode: difference;
+}
+
+.header-head {
+    display: flex;
+    align-items: center;
+    height: 2.0714285714vw;
+    justify-content: space-between;
+}
+
+
+.header-logo {
+    position: relative;
+}
+
+.header-logo__name {
+    left: 0.4285714286vw;
+    margin-top: 0.2142857143vw;
+    max-width: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10.7142857143vw;
+    height: auto;
+}
+
+.header-inner-logo__icon {
+    height: 2vw;
+    margin-left: 0.4vw;
+    margin-top: 0.35vw;
+    width: 10vw;
+}
+
+.header-nav__wrap {
+    display: flex;
+    align-items: center;
+    color: var(--primary-color);
+}
+
+.header-inner-nav__link {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.header-inner-nav__link-text,
+.header-dropdown__title-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 13.5px;
+}
+
+.header-dropdown__title {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.header-dropdown__title-text {
+    margin-right: 0.2857142857vw;
+    transition: all .5s ease;
+}
+
+.header-inner-nav__link {
+    margin-left: 1.7857142857vw;
+    text-transform: uppercase;
+}
+
+.menu_svg {
+    transition: transform 0.2s ease-in-out;
+}
+
+.header-dropdown__title:hover>.menu_svg {
+    transform: rotate(90deg);
+    transition: 0.2s linear;
+}
+
+.header-inner-nav__link:hover,
+.onHover {
+    opacity: 0.5;
+    transition: 0.3s linear;
+}
+
+@keyframes fadeInDownMenu {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-100px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+    }
+}

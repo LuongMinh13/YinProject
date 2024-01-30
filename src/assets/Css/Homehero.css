@@ -1,0 +1,70 @@
+
+
+.home-hero-descr {
+font-family: 'Cormorant', serif;
+    font-size: 2vw;
+    left: 0;
+    line-height: 2vw;
+    position: absolute;
+    text-align: center;
+    top: 75%;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: 1;
+    color: #fff;
+    vertical-align: baseline;
+    word-spacing: 0px;
+}
+
+.mask {
+    display: block;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.split-line {
+    display: block;
+    text-align: center;
+    position: relative;
+    translate: none;
+    rotate: none;
+    scale: none;
+    transform: translate(0px, 0px);
+}
+
+.firstDropDown {
+    opacity: 0;
+    animation: drop 0.4s linear forwards;
+}
+
+.secondDropDown {
+    opacity: 0;
+    animation: drop 0.4s linear forwards 0.2s;
+}
+
+.thirdDropDown {
+    opacity: 0;
+    animation: drop 0.4s linear forwards 0.4s;
+}
+
+.fourDropDown {
+    opacity: 0;
+    animation: drop 0.4s linear forwards 0.6s;
+}
+
+.active {
+    display: none;
+}
+
+@keyframes drop {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}

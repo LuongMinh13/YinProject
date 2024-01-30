@@ -1,0 +1,43 @@
+.home-hero-btn {
+    bottom: 19.2857142857vw;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%);
+    text-decoration: none;
+    color: var(--primary-color);
+    z-index: 1;
+}
+
+.home-hero-btn__line {
+    height: 3.8571428571vw;
+    left: -2.1428571429vw;
+    max-width: none;
+    position: absolute;
+    top: -0.9285714286vw;
+    width: 15.7142857143vw;
+}
+
+.home-hero-btn__container {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 487.284;
+}
+
+.activeButton{
+    stroke-dashoffset: 487.284;
+    stroke-dasharray: 487.284;
+    animation: dash 0.5s linear forwards;
+}
+
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+.home-hero-btn__first {
+    font-size: 2.0714285714vw;
+    line-height: 100%;
+    margin-right: 0.3571428571vw;
+}
+

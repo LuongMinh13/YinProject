@@ -1,0 +1,16 @@
+/* .About{
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
+} */
+
+.rectange1{
+    background-color: transparent;
+    height: 200px;
+    width: 100vw;
+    position: fixed;
+    mix-blend-mode: difference;
+    z-index: 99;
+}
+
